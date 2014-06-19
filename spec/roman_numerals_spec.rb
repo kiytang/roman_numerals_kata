@@ -18,4 +18,8 @@ describe "RomanNumerals" do
   it "can convert 10 to X" do
   	expect(r.convert(10)).to eq("X")
   end
+
+  it "can convert 35 to XXXV" do
+  	expect(r.convert(35)).to eq("XXXV")
+  end
 end
