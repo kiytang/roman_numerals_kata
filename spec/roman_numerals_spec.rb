@@ -4,7 +4,7 @@ describe "converting arabic numbers to roman numerals" do
 
 	let(:r) {RomanNumerals.new}
 	it "can create a new instance of RomanNumeral" do
-		r = RomanNumerals.new
+	r = RomanNumerals.new
 	end
 
 	it "can convert 1 to I" do
